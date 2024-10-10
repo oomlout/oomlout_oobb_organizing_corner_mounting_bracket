@@ -15,7 +15,7 @@ def make_scad(**kwargs):
         #filter = "test"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         kwargs["overwrite"] = True
         
@@ -198,7 +198,7 @@ def get_bracket_corner(thing, **kwargs):
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "negative"
     p3["shape"] = f"oobb_screw_countersunk"
-    p3["radius_name"] = "m3"
+    p3["radius_name"] = "m3d5_screw_wood"
     p3["depth"] = depth
     #p3["m"] = "#"
     poss_oobb = [1,1],[1,height],[width,1]
