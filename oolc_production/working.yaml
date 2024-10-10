@@ -1,0 +1,6 @@
+project_id: oomlout_oobb_organizing_corner_mounting_bracket
+project_name: Oomlout Oobb Organizing Corner Mounting Bracket
+project_repo: https://github.com/oomlout/oomlout_oobb_organizing_corner_mounting_bracket
+production_format:
+  oolc_1:
+    file_location: source_files/oolc_1.cdr
